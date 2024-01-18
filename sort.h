@@ -18,8 +18,13 @@ struct listint_s *prev;
 struct listint_s *next;
 } listint_t;
 
-void print_array(const int *array, size_t size);
+/* PRINT Prototypes functions */
 void print_list(const listint_t *list);
+void print_array(const int *array, size_t size);
+
+/* MAIN Prototypes */
+void selection_sort(int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
+void quick_sort(int *array, size_t size);
 #endif
