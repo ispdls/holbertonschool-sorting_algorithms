@@ -2,5 +2,6 @@
     "files.associations": {
         "print_array.C": "cpp",
         "print_list.C": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
