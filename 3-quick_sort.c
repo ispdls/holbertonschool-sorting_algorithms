@@ -27,8 +27,9 @@ int lomuto_partition(int *array, size_t size, int low, int high)
 
 	int i = low;
 
-	for (int j = low; j < high; j++)
+	int j;
 
+	for (j = low; j < high; j++)
 	{
 		if (array[j] < pivot)
 		{
@@ -47,6 +48,7 @@ int lomuto_partition(int *array, size_t size, int low, int high)
 	}
 	return (i);
 }
+
 
 /**
 * quicksort - Implements quicksort algorithm recursively
